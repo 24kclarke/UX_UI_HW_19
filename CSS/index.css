@@ -85,6 +85,22 @@ footer {
     grid-area: itemTwo;
 }
 
+
+/* Jquery accordian*/
+
+#panel, #flip {
+    padding: 20px;
+    text-align: center;
+    color: #FBBCB4;
+    background-color: black;
+    border: solid 1px grey;
+  }
+  
+  #panel {
+    padding: 50px;
+    display: none;
+  }
+
 /* MEDIA QUERIES */
 
 @media only screen and (max-width: 600) {
